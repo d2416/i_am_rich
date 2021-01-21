@@ -7,7 +7,6 @@ void main() {
 }
 
 class IamRichApp extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -20,7 +19,9 @@ class IamRichApp extends StatelessWidget {
           ),
         ),
         body: Center(
-          child: Image(image: AssetImage('images/gem.png'),),
+          child: Image(
+            image: AssetImage('images/gem.png'),
+          ),
         ),
       ),
     );
