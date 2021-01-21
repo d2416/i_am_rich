@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 
 void main() => runApp(
       MaterialApp(
-        home: Center(
-          child: Text("Hola mundo"),
+        home: Scaffold(
+          appBar: AppBar(
+            title: Text("I Am Rich"),
+          ),
         ),
       ),
     );
