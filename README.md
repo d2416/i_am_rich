@@ -1,9 +1,7 @@
 # I am rich
 
-A new Flutter project.
+This is a mobile app build using Dart/Flutter & VS Code.
 
-## Getting Started
+Project used to understand how Flutter works following the Angela Yu's Udemy course (https://www.udemy.com/course/flutter-bootcamp-with-dart/)
 
-This project is a starting point for a Flutter application.
-
-Project used to understand how Flutter works.
+Image converted to icons using https://appicon.co/
