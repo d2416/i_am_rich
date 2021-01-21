@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 void main() => runApp(
       MaterialApp(
-        home: Text("Hola mundo"),
+        home: Center(
+          child: Text("Hola mundo"),
+        ),
       ),
     );
