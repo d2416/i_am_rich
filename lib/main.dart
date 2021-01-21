@@ -4,7 +4,12 @@ void main() => runApp(
       MaterialApp(
         home: Scaffold(
           appBar: AppBar(
-            title: Text("I Am Rich"),
+            title: Center(
+              child: Text("I Am Rich"),
+            ),
+          ),
+          body: Center(
+            child: Text("Gem"),
           ),
         ),
       ),
