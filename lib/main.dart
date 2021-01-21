@@ -3,8 +3,14 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(
-    MaterialApp(
+  runApp(IamRichApp());
+}
+
+class IamRichApp extends StatelessWidget {
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.blueGrey[100],
         appBar: AppBar(
@@ -17,6 +23,6 @@ void main() {
           child: Image(image: AssetImage('images/gem.png'),),
         ),
       ),
-    ),
-  );
+    );
+  }
 }
